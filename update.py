@@ -17,7 +17,7 @@ more = '''
 ||google.ba
 ||google.be
 ||google.bg
-||google.cat
+||google.ca
 ||google.cd
 ||google.ci
 ||google.co.id
@@ -26,6 +26,7 @@ more = '''
 ||google.co.ma
 ||google.co.uk
 ||google.com
+||google.com.au
 ||google.de
 ||google.dj
 ||google.dk
