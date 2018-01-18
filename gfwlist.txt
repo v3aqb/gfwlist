@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 4lCzocW7PtchrfCTKvXmhQ
+! Checksum: RntqxMgMEEOFmkt2LkXLZw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 03 Jan 2018 20:09:59 -0500
+! Last Modified: Sat, 13 Jan 2018 20:49:00 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -244,9 +244,11 @@ share.dmhy.org
 ||i.lithium.com
 ||cloud.mail.ru
 ||cdn-images.mailchimp.com
+||dictionary.goo.ne.jp
 ||go.nesnode.com
 ||nikkei.com
 ||my.pcloud.com
+||picacomic.com
 ||pixiv.net
 ||secure.raxcdn.com
 ||sosreader.com
@@ -938,6 +940,7 @@ blogs.yahoo.co.jp
 buy.yahoo.com.tw/gdsale
 hk.yahoo.com
 hk.knowledge.yahoo.com
+tw.money.yahoo.com
 hk.myblog.yahoo.com
 news.yahoo.com/china-blocks-bbc
 ||hk.news.yahoo.com
@@ -1112,6 +1115,7 @@ abclite.net
 .acg18.me
 |http://acg18.me
 ||acgkj.com
+.acmedia365.com
 .acnw.com.au
 actfortibet.org
 actimes.com.au
@@ -1277,7 +1281,7 @@ apkpure.com
 ||appsto.re
 ||archives.gov
 .archive.is
-|http://archive.is
+||archive.is
 .archive.fo
 ||archive.org
 .arctosia.com
@@ -1321,6 +1325,7 @@ atgfw.org
 .atnext.com
 ||atnext.com
 ice.audionow.com
+||av.movie
 avaaz.org
 ||avaaz.org
 !--||avast.com
@@ -2173,6 +2178,7 @@ gloryhole.com
 ||dollf.com
 .domain.club.tw
 .domaintoday.com.au
+chinese.donga.com
 dongtaiwang.com
 ||dongtaiwang.com
 .dongtaiwang.net
@@ -4628,6 +4634,7 @@ thecenter.mit.edu
 .mitao.com.tw
 .mitbbs.com
 ||mitbbs.com
+mitbbsau.com
 .mixero.com
 ||mixero.com
 mixpod.com
@@ -4636,6 +4643,7 @@ mixpod.com
 ||mizzmona.com
 .mk5000.com
 .mlcool.com
+.mm-cg.com
 ||mmaaxx.com
 .mmmca.com
 mnewstv.com
@@ -5147,6 +5155,7 @@ philly.com
 ||photodharma.net
 ||photofocus.com
 ||phuquocservices.com
+||picacomiccn.com
 .picidae.net
 ||img*.picturedip.com
 picturesocial.com
@@ -5488,7 +5497,7 @@ riku.me/
 .roadshow.hk
 .roboforex.com
 ||robustnessiskey.com
-||roc-taiwan.org
+!--||roc-taiwan.org
 ||rocket-inc.net
 |http://www2.rocketbbs.com/11/bbs.cgi?id=5mus
 |http://www2.rocketbbs.com/11/bbs.cgi?id=freemgl
@@ -5999,7 +6008,7 @@ tahr.org.tw
 .taiwandaily.net
 ||taiwandaily.net
 .taiwandc.org
-||taiwanembassy.org
+!--||taiwanembassy.org
 .taiwanjustice.com
 taiwankiss.com
 taiwannation.com
@@ -6007,7 +6016,7 @@ taiwannation.com.tw
 ||taiwanncf.org.tw
 ||taiwannews.com.tw
 |http://www.taiwanonline.cc/
-||taiwantoday.tw
+!--||taiwantoday.tw
 taiwantp.net
 ||taiwantt.org.tw
 taiwanus.net
@@ -7365,7 +7374,7 @@ zomobo.net
 .zoozle.net
 writer.zoho.com
 ||zpn.im
-.zshare.net/download
+||zspeeder.me
 .zsrhao.com
 .zuo.la
 ||zuo.la
