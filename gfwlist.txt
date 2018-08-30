@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: K36IZQB6+FYFbQ/A9Hrvjw
+! Checksum: Z+6CYulLFrYpimhncMK1eg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 25 Jul 2018 20:55:10 -0400
+! Last Modified: Sun, 12 Aug 2018 20:45:03 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -29,6 +29,7 @@
 ||assimp.org
 ||athenaeizou.com
 ||azubu.tv
+||bankmobilevibe.com
 ||banorte.com
 ||bash-hackers.org
 ||beeg.com
@@ -42,6 +43,7 @@
 ||casinobellini.com
 ||centauro.com.br
 ||chobit.cc
+||clearsurance.com
 ||images.comico.tw
 ||static.comico.tw
 ||costco.com
@@ -62,6 +64,7 @@ share.dmhy.org
 ||dmm.co.jp
 |http://www.dmm.com/netgame
 ||dnvod.tv
+||dvdpac.com
 ||eesti.ee
 ||esurance.com
 .expekt.com
@@ -203,6 +206,7 @@ share.dmhy.org
 ||gsp.target.com
 ||login.target.com
 !--@@||intl.target.com
+||rcam.target.com
 ||thebodyshop-usa.com
 ||tma.co.jp
 ||tracfone.com
@@ -243,6 +247,7 @@ share.dmhy.org
 ||xn--4gq171p.com
 ||xn--czq75pvv1aj5c.org
 ||xn--i2ru8q2qg.com
+||xn--oiq.cc
 ||xn--p8j9a0d9c9a.xn--q9jyb4c
 
 !-----------------DNS Poisoning-----------------
@@ -256,6 +261,7 @@ share.dmhy.org
 ||bird.so
 ||boomssr.com
 ||castbox.fm
+||cmcn.org
 ||cmx.im
 ||depositphotos.com
 ||fangeqiang.com
@@ -272,11 +278,13 @@ share.dmhy.org
 ||i.lithium.com
 ||cloud.mail.ru
 ||cdn-images.mailchimp.com
+||mohu.club
 ||mohu.ml
 ||mastodon.host
 ||dictionary.goo.ne.jp
 ||go.nesnode.com
 ||nikkei.com
+||nofile.io
 ||now.com
 ||sukebei.nyaa.si
 ||onejav.com
@@ -284,8 +292,15 @@ share.dmhy.org
 ||my.pcloud.com
 ||picacomic.com
 ||pixiv.net
+||protonvpn.com
+||quora.com
 ||cdn.seatguru.com
 ||secure.raxcdn.com
+||redd.it
+||reddit.com
+||redditmedia.com
+||redditstatic.com
+||rsdlmonitor.com
 ||shadowsocks.be
 ||shadowsocks9.com
 ||tn1.shemalez.com
@@ -294,12 +309,15 @@ share.dmhy.org
 ||static.shemalez.com
 ||sosreader.com
 ||sulian.me
+||teddysun.com
 ||textnow.me
 ||tineye.com
 ||tubepornclassic.com
 ||uku.im
 ||unseen.is
 ||cn.uptodown.com
+||uraban.me
+||vrsmash.com
 ||scache.vzw.com
 ||scache1.vzw.com
 ||scache2.vzw.com
@@ -330,7 +348,7 @@ share.dmhy.org
 .coinegg.com
 ||coinegg.com
 ||coinex.com
-|https://www.coinexchange.io/
+!--|https://www.coinexchange.io/
 ||coingi.com
 ||coinrail.co.kr
 ||cointobe.com
@@ -1721,9 +1739,15 @@ aiweiwei.com
 !!---Akamai---
 a248.e.akamai.net
 ||a248.e.akamai.net
+
+rfalive1.akacast.akamaistream.net
 voa-11.akacast.akamaistream.net
+
 !!--403
+||abematv.akamaized.net
 ||linear-abematv.akamaized.net
+||vod-abematv.akamaized.net
+
 |https://fbcdn*.akamaihd.net/
 !--||fbexternal-a.akamaihd.net
 !--||fbstatic-a.akamaihd.net
@@ -2437,6 +2461,7 @@ chinese-memorial.org
 ||chinesegay.org
 .chinesen.de
 ||chinesen.de
+.chinesenews.net.au/
 .chinesepen.org
 .chinesetalks.net/ch
 ||chineseupress.com
@@ -2611,6 +2636,7 @@ cts.com.tw
 ||curvefish.com
 .cusu.hk
 ||cusu.hk
+.cutscenes.net
 .cw.com.tw
 ||cw.com.tw
 |http://forum.cyberctm.com
@@ -2987,8 +3013,10 @@ erabaru.net
 |http://eromon.net
 .eroprofile.com
 .eroticsaloon.net
-.eslite.com/product
-.eslite.com/Search_BW.aspx?q
+.eslite.com
+||eslite.com
+!--.eslite.com/product
+!--.eslite.com/Search_BW.aspx?q
 wiki.esu.im/%E8%9B%A4%E8%9B%A4%E8%AF%AD%E5%BD%95
 .etaa.org.au
 .etadult.com
@@ -3706,7 +3734,6 @@ echofon.com
 !-||r-chart.com
 !-||rameshsubramanian.org
 !-||rapid.pk
-!-||blog.reddit.com
 !-||blog.renanse.com
 !-||robertmao.com
 !-||www.romeo-foxtrot.com
@@ -5761,7 +5788,8 @@ riku.me/
 |http://rthk.hk
 .rthk.org.hk
 |http://rthk.org.hk
-rti.org.tw
+.rti.org.tw
+||rti.org.tw
 .rtycminnesota.org
 .ruanyifeng.com/blog*some_ways_to_break_the_great_firewall
 rukor.org
@@ -6113,6 +6141,8 @@ spem.at
 ||ssh91.com
 .sspro.ml
 |http://sspro.ml
+.ssrshare.com
+||ssrshare.com
 ||sss.camp
 !--|http://cdn.sstatic.net/
 ||sstmlt.moe
@@ -6730,6 +6760,8 @@ twibase.com
 ||twibble.de
 twibbon.com
 ||twibs.com
+.twicountry.org
+|http://twicountry.org
 twicsy.com
 .twiends.com
 |http://twiends.com
@@ -6992,6 +7024,8 @@ vimeo.com
 ||vincnd.com
 ||vinniev.com
 |http://www.lib.virginia.edu/area-studies/Tibet/tibet.html
+.virtualrealporn.com
+||virtualrealporn.com
 visibletweets.com
 |http://ny.visiontimes.com
 .vital247.org
@@ -7403,6 +7437,7 @@ destiny.xfiles.to/ubbthreads
 ||xgmyd.com
 xhamster.com
 ||xhamster.com
+.xianba.net
 .xianchawang.net
 .xianjian.tw
 |http://xianjian.tw
@@ -7569,11 +7604,11 @@ zacebook.com
 .zalmos.com
 ||zalmos.com
 ||zannel.com
-!--.zaobao.com
-.zaobao.com.sg
+.zaobao.com
+||zaobao.com
+|http://zaobao.com.sg
 ||zaobao.com.sg
 .zaozon.com
-!--.zdnet.com.tw/news/software/0,2000085678,20111187,00
 ||zdnet.com.tw
 .zello.com
 ||zello.com
