@@ -4,6 +4,7 @@
 import sys
 import os
 import base64
+import urllib.request
 
 os.chdir(os.path.dirname(os.path.abspath(__file__).replace('\\', '/')))
 
@@ -47,13 +48,12 @@ for dns in dns_list:
 if sys.version_info > (3, 0):
     raw_input = input
 
-try:
-    import urllib2
-except ImportError:
-    import urllib.request as urllib2
+proxy_handler = urllib.request.ProxyHandler({})
+opener = urllib.request.build_opener(proxy_handler)
+urlopen = opener.open
 try:
     print('downloading gfwlist')
-    r = urllib2.urlopen('https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt')
+    r = urlopen('https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt')
 except Exception as e:
     print(repr(e))
 else:
