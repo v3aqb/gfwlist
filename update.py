@@ -1,13 +1,18 @@
 #!/usr/bin/env python
 # coding:utf-8
 
-import sys
 import os
 import base64
 import urllib.request
+import subprocess
 
 os.chdir(os.path.dirname(os.path.abspath(__file__).replace('\\', '/')))
 
+# pull
+# print('git pull')
+# subprocess.run(['git', 'pull'], check=True)
+
+# prep
 more = []
 
 more.append('')
@@ -45,26 +50,33 @@ dns_list = [
 for dns in dns_list:
     more.append('||%s' % dns)
 
-if sys.version_info > (3, 0):
-    raw_input = input
+# download / update
+# proxy_handler = urllib.request.ProxyHandler({})
+# opener = urllib.request.build_opener(proxy_handler)
+# urlopen = opener.open
+urlopen = urllib.request.urlopen
 
-proxy_handler = urllib.request.ProxyHandler({})
-opener = urllib.request.build_opener(proxy_handler)
-urlopen = opener.open
-try:
-    print('downloading gfwlist')
-    r = urlopen('https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt')
-except Exception as e:
-    print(repr(e))
-else:
-    data = r.read()
-    if r.getcode() == 200 and data:
-        if b'!' not in data:
-            data = b''.join(data.split())
-            data = base64.b64decode(data).decode()
-        with open('./gfwlist.txt', 'w') as localfile:
-            localfile.write(data)
-            for line in more:
-                localfile.write(line + '\n')
+print('downloading gfwlist')
+r = urlopen('https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt', timeout=3)
 
-raw_input('press Enter to exit...')
+data = r.read()
+if r.getcode() == 200 and data:
+    if b'!' not in data:
+        data = b''.join(data.split())
+        data = base64.b64decode(data).decode()
+    with open('./gfwlist.txt', 'w') as localfile:
+        localfile.write(data)
+        for line in more:
+            localfile.write(line + '\n')
+
+# check file change
+
+result = subprocess.check_output(['git', 'status', '-s'])
+changed = b'gfwlist.txt' in result
+
+# commit / push
+
+if changed:
+    subprocess.run(['git', 'add', 'gfwlist.txt'], check=True)
+    subprocess.run(['git', 'commit', '-m', "update gfwlist (auto)"], check=True)
+    subprocess.run(['git', 'push'], check=True)
