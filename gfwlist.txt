@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: e7uftC4J4WrSd3sxkqhuwg
+! Checksum: r+kz0faRheFb2Dn193Xa4Q
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 05 Dec 2018 13:00:59 -0500
+! Last Modified: Fri, 11 Jan 2019 21:54:26 +0800
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -22,6 +22,8 @@
 ||agnesb.fr
 ||akiba-web.com
 ||altrec.com
+||angela-merkel.de
+||angola.org
 ||apartmentratings.com
 ||apartments.com
 ||arena.taipei
@@ -258,15 +260,18 @@ share.dmhy.org
 
 ||agro.hk
 ||apkmirror.com
+||arte.tv
 ||behance.net
 ||bird.so
 ||zh.bitterwinter.org
 ||businessinsider.com
 ||boomssr.com
 ||castbox.fm
+||clyp.it
 ||cmcn.org
 ||cmx.im
 ||depositphotos.com
+||doubmirror.cf
 ||fangeqiang.com
 ||flyzy2005.com
 ||foreignpolicy.com
@@ -276,6 +281,7 @@ share.dmhy.org
 ||glorystar.me
 ||goregrish.com
 ||hbo.com
+||hkgalden.com
 ||hudson.org
 ||ipfs.io
 ||japantimes.co.jp
@@ -287,6 +293,7 @@ share.dmhy.org
 ||cloud.mail.ru
 ||cdn-images.mailchimp.com
 ||mastodon.host
+||matters.news
 ||mohu.club
 ||mohu.ml
 ||motiyun.com
@@ -298,6 +305,7 @@ share.dmhy.org
 ||nofile.io
 ||now.com
 ||sukebei.nyaa.si
+||openvpn.org
 ||onejav.com
 ||paste.ee
 ||my.pcloud.com
@@ -311,6 +319,8 @@ share.dmhy.org
 ||secure.raxcdn.com
 ||redd.it
 ||reddit.com
+.redditlist.com
+|http://redditlist.com
 ||redditmedia.com
 ||redditstatic.com
 ||rixcloud.com
@@ -322,6 +332,7 @@ share.dmhy.org
 ||tn2.shemalez.com
 ||tn3.shemalez.com
 ||static.shemalez.com
+||softsmirror.cf
 ||sosreader.com
 ||sspanel.net
 ||sulian.me
@@ -335,6 +346,7 @@ share.dmhy.org
 ||cn.uptodown.com
 ||uraban.me
 ||vrsmash.com
+||vultryhw.com
 ||scache.vzw.com
 ||scache1.vzw.com
 ||scache2.vzw.com
@@ -346,6 +358,7 @@ share.dmhy.org
 ||wire.com
 ||xm.com
 ||xuehua.us
+||yes-news.com
 ||zzcloud.me
 
 !---Digital Currency Exchange(CRYPTO)---
@@ -394,6 +407,7 @@ share.dmhy.org
 ||kucoin.com
 ||lbank.info
 ||livecoin.net
+||localbitcoins.com
 ||oex.com
 ||okex.com
 ||otcbtc.com
@@ -2986,6 +3000,7 @@ efcc.org.hk
 ||eksisozluk.com
 electionsmeter.com
 ||elgoog.im
+.ellawine.org
 .elpais.com
 ||elpais.com
 .eltondisney.com
@@ -3076,6 +3091,8 @@ etvonline.hk
 .eulam.com
 .eurekavpt.com
 ||eurekavpt.com
+.euronews.com
+||euronews.com
 eeas.europa.eu/delegations/china/press_corner/all_news/news/2015/20150716_zh
 eeas.europa.eu/statements-eeas/2015/151022
 .evschool.net
@@ -3528,6 +3545,7 @@ hahaxixi.github.io
 ||sikaozhe1997.github.io
 ||sodatea.github.io
 ||terminus2049.github.io
+||toutyrater.github.io
 wsgzao.github.io
 |https://wsgzao.github.io
 !--.github.io
@@ -5530,7 +5548,7 @@ politicalconsultation.org
 .popo.tw
 !--||popularpages.net
 ||popvote.hk
-popyard.com
+.popyard.com
 ||popyard.org
 .porn.com
 .porn2.com
@@ -6290,6 +6308,8 @@ sun1911.com
 .suyangg.com
 |http://suyangg.com
 .svsfx.com
+.swissinfo.ch
+||swissinfo.ch
 .swissvpn.net
 ||swissvpn.net
 switchvpn.net
@@ -7041,6 +7061,7 @@ uygur.org
 .vanilla-jp.com
 .vanpeople.com
 vansky.com
+||vaticannews.va
 ||vcf-online.org
 ||vcfbuilder.org
 .vegasred.com
