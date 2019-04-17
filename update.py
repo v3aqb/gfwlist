@@ -80,3 +80,9 @@ if changed:
     subprocess.run(['git', 'add', 'gfwlist.txt'], check=True)
     subprocess.run(['git', 'commit', '-m', "update gfwlist (auto)"], check=True)
     subprocess.run(['git', 'push'], check=True)
+
+with open('sckey') as f:
+    import requests
+    sckey = f.read('sckey')
+    data = {'text': 'gfwlist', 'desp': 'updated'}
+    requests.post('https://sc.ftqq.com/%s.send' % sckey, data=data)
