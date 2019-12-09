@@ -66,8 +66,8 @@ if r.getcode() == 200 and data:
         data = base64.b64decode(data).decode()
     with open('./gfwlist.txt', 'w') as localfile:
         localfile.write(data)
-        for line in more:
-            localfile.write(line + '\n')
+        # for line in more:
+        #     localfile.write(line + '\n')
 
 # check file change
 
